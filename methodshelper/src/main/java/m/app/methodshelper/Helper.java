@@ -27,22 +27,35 @@ public class Helper {
         }
     }
 
+    /*
+    * Display a message using Toast
+    * */
     public static void showMessage(String msg) {
         Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
     }
 
+    /*
+     * Display a message using Toast, also need the Toast duration
+     * */
     public static void showMessage(String msg, int length) {
         Toast.makeText(context, msg, length).show();
     }
+
 
     private static Context getContext() {
         return Helper.context;
     }
 
+    /*
+    * This methods convert px to dp
+    * */
     public static float pxToDp(final float px) {
         return px / getContext().getResources().getDisplayMetrics().density;
     }
 
+    /*
+    * This method convert dp to px
+    * */
     public static float dpToPx(final float dp) {
         return dp * getContext().getResources().getDisplayMetrics().density;
     }
