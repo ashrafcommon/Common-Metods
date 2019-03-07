@@ -22,3 +22,22 @@ allprojects {
     }
 }
 ```
+
+If you are using Maven
+
+```
+<dependency>
+  <groupId>com.ashraf</groupId>
+  <artifactId>commonmethod</artifactId>
+  <version>0.0.2</version>
+  <type>pom</type>
+</dependency>
+```
+
+If you are using Ivy
+
+```
+<dependency org='com.ashraf' name='commonmethod' rev='0.0.2'>
+  <artifact name='commonmethod' ext='pom' ></artifact>
+</dependency>
+```
