@@ -51,7 +51,7 @@ First initialize the library either in Application Class of Launcher Activity.
 Helper.initialize(getApplicationContext());
 ```
 
-# Useage
+# Usage
 
 1) Call this method to show Toast of android
 ```
