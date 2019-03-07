@@ -8,11 +8,11 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-public class AllFunctions {
+public class Helper {
     private static Context context;
 
     public static void initialize(Context context) {
-        AllFunctions.context = context.getApplicationContext();
+        Helper.context = context.getApplicationContext();
     }
 
     /*
@@ -36,14 +36,14 @@ public class AllFunctions {
     }
 
     private static Context getContext() {
-        return AllFunctions.context;
+        return Helper.context;
     }
 
-    public static float dpFromPx(final float px) {
+    public static float pxToDp(final float px) {
         return px / getContext().getResources().getDisplayMetrics().density;
     }
 
-    public static float pxFromDp(final float dp) {
+    public static float dpToPx(final float dp) {
         return dp * getContext().getResources().getDisplayMetrics().density;
     }
 
