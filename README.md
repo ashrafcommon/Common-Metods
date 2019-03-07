@@ -12,7 +12,7 @@ if you are using Gradle the add this line in your app build.gradle
 implementation 'com.ashraf:commonmethod:0.0.1'
 `
 
-In update android versions(above 2.1) , jcenter() is included by default.
+In android-stdio versions(above 2.1) , jcenter() is included by default.
 Kindly cross check your project level build.gredle, if jcenter() is not added then add these lines in project level build.gradle
 
 `
