@@ -35,7 +35,7 @@ ext {
 
     publishedGroupId = 'com.ashraf' //aaaa : the librairy group
     artifact = 'commonmethod' //BBBB : the library name
-    libraryVersion = "0.0.1" //the librairy version
+    libraryVersion = "0.0.2" //the librairy version
 
     //the library will be : aaaa:BBBB:version
 

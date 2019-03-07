@@ -10,8 +10,3 @@
 .idea/libraries
 .idea/caches
 .idea
-
-
-# Gradle files
-.gradle
-build/
