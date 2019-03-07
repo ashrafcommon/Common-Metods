@@ -29,25 +29,25 @@ dependencies {
 }
 
 ext {
-    bintrayRepo = 'Methods-Helper' //the maven repo name (created on bintray)
-    bintrayName = 'commonmethods' //the name you want to give at your project on bintray
-    orgName = 'iqubal' //your user name
+    bintrayRepo = 'Helper-Methods' //the maven repo name (created on bintray)
+    bintrayName = 'commonmethod' //the name you want to give at your project on bintray
+    orgName = 'ashrafcommon' //your user name
 
-    publishedGroupId = 'com.iqubalashraf' //aaaa : the librairy group
-    artifact = 'commonmethods' //BBBB : the library name
+    publishedGroupId = 'com.ashraf' //aaaa : the librairy group
+    artifact = 'commonmethod' //BBBB : the library name
     libraryVersion = "0.0.1" //the librairy version
 
     //the library will be : aaaa:BBBB:version
 
-    libraryName = 'AndroidHelper'
+    libraryName = 'MethodHelper'
     libraryDescription = 'This library gives you support of commonly used methods in android in bundle'
 
-    siteUrl = 'https://github.com/iqubalashraf/AllFunctionLibs'
-    gitUrl = 'https://github.com/iqubalashraf/AllFunctionLibs.git'
+    siteUrl = 'https://github.com/ashrafcommon/Common-Metods'
+    gitUrl = 'https://github.com/ashrafcommon/Common-Metods.git'
 
-    developerId = 'iqubalashraf'
+    developerId = 'ashrafcommon'
     developerName = 'Ashraf Iqubal'
-    developerEmail = 'ashrafiqubal@gmail.com'
+    developerEmail = 'ashrafcommon@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
